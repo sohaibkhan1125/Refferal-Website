@@ -21,7 +21,7 @@ const Footer = () => {
                         </p>
                         <div className="flex space-x-4">
                             {[Twitter, Instagram, Linkedin, Github].map((Icon, i) => (
-                                <a key={i} href="#" className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-gray-400 hover:text-primary-400 hover:border-primary-400/50 transition-all">
+                                <a key={i} href="#!" className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-gray-400 hover:text-primary-400 hover:border-primary-400/50 transition-all">
                                     <Icon size={18} />
                                 </a>
                             ))}
@@ -34,7 +34,7 @@ const Footer = () => {
                         <ul className="space-y-4">
                             {['Features', 'Dashboard', 'Commission', 'Affiliate Tools', 'Payouts'].map((item) => (
                                 <li key={item}>
-                                    <a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">{item}</a>
+                                    <a href="#!" className="text-gray-400 hover:text-white transition-colors text-sm">{item}</a>
                                 </li>
                             ))}
                         </ul>
@@ -46,7 +46,7 @@ const Footer = () => {
                         <ul className="space-y-4">
                             {['About Us', 'Contact', 'Privacy Policy', 'Terms of Service', 'Cookie Policy', 'Help Center'].map((item) => (
                                 <li key={item}>
-                                    <a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">{item}</a>
+                                    <a href="#!" className="text-gray-400 hover:text-white transition-colors text-sm">{item}</a>
                                 </li>
                             ))}
                         </ul>
